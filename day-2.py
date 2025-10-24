@@ -27,6 +27,9 @@ Summary -
 5. more compatibilty between python function calls and internal C language calls. 
 '''
 
+'''Positional only  vs Keyword only :-
+1. If the parameter names are not important & not having any meaning & there are only few arguments - Go with Positional only argument . 
+2. If paramter names having meaning & function implementation is more understandable with these names. - Go with Keyword only argument. '''
 
 
 
