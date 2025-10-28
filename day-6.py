@@ -14,7 +14,7 @@ If we want duplicate object instead of duplicate reference variable then we shou
 
 
 # cloning - process of creating duplicate object but with having different addresses.
-
+#comment added
 l1=[10,20,30,40]
 l2=l1.copy()
 print(id(l1))    #  3019624760512
