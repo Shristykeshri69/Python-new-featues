@@ -1,4 +1,5 @@
 
+==
 # dataclass  - This module provides a decorators and function for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. or generate a common boilerplate methods. 
 
 # EX- 
@@ -106,5 +107,7 @@ print({s1, s2})            # only one element in the set
 1. Storing Immutable Configurations in a Set or Dict.
 2. Caching or Memoization - Suppose you’re writing a function that processes large datasets.You want to cache results for the same input configuration.'''
 
-** When not to use hashing
+
+
+*** When not to use hashing
 If your dataclass is mutable (e.g., Employee whose salary can change), don’t rely on hashing — a change could invalidate the stored hash.
