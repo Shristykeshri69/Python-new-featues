@@ -1,4 +1,5 @@
 
+
 # Exception handling is always associated with runtime errors.
 # The main purpose of assertions is for debugging purposes.
 # Debugging - process of identifying & fixing the bug.
@@ -27,6 +28,15 @@ print(squareit(4))
     assert squareit(4)==16
            ^^^^^^^^^^^^^^^
 AssertionError'''
+
+
+when to use assert ?
+
+debugging and catching logical errors during development.
+ensuring function inputs meet expected conditions.
+validating intermediate states in complex calculations.
+used in test cases for quick sanity checks.
+
 
 
 NOTE :-
